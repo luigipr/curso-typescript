@@ -1,10 +1,10 @@
 {
-  "name": "curso-typescript",
+  "name": "aula-ts-04",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/aula-ts-10/index.ts",
+    "dev": "nodemon src/index.ts",
     "start": "node dist/index.js"
   },
   "keywords": [],
