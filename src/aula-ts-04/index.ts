@@ -19,11 +19,11 @@ if(isEven(result)) {
 }
 
 (() => {
-    let num1: string | number | null = prompt("First Number");
-    let num2: string | number | null = prompt("Second Number");
+    let num1: string | number | null = Number(prompt("First Number"));
+    let num2: string | number | null = Number(prompt("Second Number"));
     num1 = Number(num1)
     num2 = Number(num2)
-
+    if(isNaN(num1) || isNaN(num2)) return console.log('não foi possivel executar comesses valores')
     let result = sum(num1 ,num2);
     result += multiply(1,2);
     showResult(result);
